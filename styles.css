@@ -149,5 +149,11 @@ img:hover {
     width: 100%;
     background: #5a4c4c;
  }
+#msg{
+    color: white;
+    margin-top: -10;
+    display: block;
+}
+    
 
 
