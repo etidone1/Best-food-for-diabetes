@@ -22,7 +22,7 @@ window.addEventListener("scroll",() => {
     }
 });
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbyVhTUzlD7g499kD3_OGGesozOXEgMcIMks5xNPwJalosGr_xXOGmeFL8rlfMGjP3STGw/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwQohRuArW5sO2w9UrwNF1xzBl03JrgRq-yg5DDC2EHIqnX5-iqEFpOyAgp1jGMQ4rYzQ/exec'
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementById("msg")
 
