@@ -12,7 +12,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 }))
 
 
-const bang = document.querySelector(".bang");
+ const bang = document.querySelector(".bang");
 
 window.addEventListener("scroll",() => {
     if (window.pageYOffset > 100){
@@ -20,7 +20,7 @@ window.addEventListener("scroll",() => {
     } else {
         bang.classList.remove("active");
     }
-});
+})
 
   const scriptURL = 'https://script.google.com/macros/s/AKfycbwQohRuArW5sO2w9UrwNF1xzBl03JrgRq-yg5DDC2EHIqnX5-iqEFpOyAgp1jGMQ4rYzQ/exec'
   const form = document.forms['submit-to-google-sheet']
