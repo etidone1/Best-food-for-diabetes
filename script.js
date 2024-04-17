@@ -24,12 +24,12 @@ window.addEventListener("scroll",() => {
 
 function sendEmail(){
     Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "username",
-    Password : "password",
-    To : 'them@website.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
+    Host : "smtp.gmail.com",
+    Username : "etidone@gmail.com",
+    Password : "ThugSoul?*",
+    To : 'etidone@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry",
     Body : "And this is the body"
 }).then(
   message => alert(message)
