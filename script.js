@@ -22,19 +22,20 @@ window.addEventListener("scroll",() => {
     }
 });
 
-function sendEmail(){
-    Email.send({
-    Host : "smtp.gmail.com",
-    Username : "etidone@gmail.com",
-    Password : "ThugSoul?*",
-    To : 'etidone@gmail.com',
-    From : document.getElementById("email").value,
-    Subject : "New Contact Form Enquiry",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-}
+  function sendEmail(){
+      Email.send({
+      Host : "smtp.gmail.com",
+      Username : "etidone@gmail.com",
+      Password : "ThugSoul?*",
+      To : 'etidone@gmail.com',
+      From : document.getElementById("email").value,
+      Subject : "New Contact Form Enquiry",
+      Body : "Email: " +document.getElementById("email").value
+      + "<br> Message: " + document.getElementById("message").value
+  }).then(
+    message => alert("Message Sent Successfully")
+  );
+  }
 
 
 
