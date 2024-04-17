@@ -15,7 +15,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
  const bang = document.querySelector(".bang");
 
 window.addEventListener("scroll",() => {
-    if (window.pageYOffset > 100){
+    if (window.pageYOffset > 100) {
         bang.classList.add("active");
     } else {
         bang.classList.remove("active");
