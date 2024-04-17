@@ -9,7 +9,7 @@ hamburger.addEventListener("click", () => {
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
-}));
+}))
 
 
  const bang = document.querySelector(".bang");
@@ -37,7 +37,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbwQohRuArW5sO2w9UrwNF
           form.reset()
       })
       .catch(error => console.error('Error!', error.message))
-  });
+  })
 
 
  
