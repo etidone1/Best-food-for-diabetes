@@ -141,8 +141,10 @@ img:hover {
     pointer-events: auto;
     opacity: 1;
 }
-
- html {
+#contact{
+    margin-left: 10px;
+}
+html {
     scroll-behavior: smooth;
  }
  footer{
